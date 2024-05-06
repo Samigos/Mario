@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rGshsYwLQkubL481wZK5Od/VnDNd9aAnqeaERVqvfP77TMoX+5Kr7IqIDC3bhNd16dTWaDoNIQejX6L/W5xb7Q==",
+  "success": true,
+  "projectFilePath": "/Users/sotiriskaniras/Documents/Development/MonoGame/Mario/Mario.csproj",
+  "expectedPackageFiles": [
+    "/Users/sotiriskaniras/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/Users/sotiriskaniras/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}

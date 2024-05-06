@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/Users/sotiriskaniras/Documents/Development/MonoGame/Mario/Content/Images/Sprites/player_spritesheet_down.png</File>
+    <File>/Users/sotiriskaniras/Documents/Development/MonoGame/Mario/Content/Images/Sprites/player_spritesheet_left.png</File>
+    <File>/Users/sotiriskaniras/Documents/Development/MonoGame/Mario/Content/Images/Sprites/player_spritesheet_right.png</File>
+    <File>/Users/sotiriskaniras/Documents/Development/MonoGame/Mario/Content/Images/Sprites/player_spritesheet_up.png</File>
+    <File>/Users/sotiriskaniras/Documents/Development/MonoGame/Mario/Content/Images/tile1.png</File>
+    <File>/Users/sotiriskaniras/Documents/Development/MonoGame/Mario/Content/Images/tile2.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
