@@ -34,7 +34,14 @@ public class Game1 : Game
         Globals.Graphics = _graphics;
         Globals.Content = Content;
 
-        _player = new(new(100, 222), new(40, 62), 5, new[] { "Images/Sprites/player_spritesheet_right", "Images/Sprites/player_spritesheet_left" }, 3);
+        _player = new(
+            new(100, 222),
+            new(40, 62), 
+            5, 
+            new[] { "Images/Sprites/player_spritesheet_right", "Images/Sprites/player_spritesheet_left" }, 
+            3
+        );
+
         _player.Load();
 
         _map = new();

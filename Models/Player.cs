@@ -1,24 +1,20 @@
-using System.Diagnostics;
 using System.Linq;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 class Player : AnimatedSprite
 {
-    public Vector2 _velocity = Vector2.Zero;
 
     private bool isIdle = true;
 
-    private readonly int _gravity = 45;
     private readonly int _speed = 300;
     private readonly int _jumpSpeed = 1000;
-    private bool _isOnGround = false;
+
     public Direction direction = Direction.RIGHT;
 
     public Player(Vector2 position, Vector2 size, int frameRefreshRate, string[] spritesheetPaths, int numberOfHorizontalSprites) : base(position, size, frameRefreshRate, spritesheetPaths, numberOfHorizontalSprites)
     {
-
+        IsGravityEnabled = true;
     }
 
     public override void Load()
@@ -73,17 +69,6 @@ class Player : AnimatedSprite
         }
 
         Position = newPosition;
-    }
-
-    private void ApplyGravity(GameTime gameTime)
-    {
-        if (_isOnGround)
-        {
-            _velocity.Y = 0;
-            return;
-        }
-
-        _velocity.Y += _gravity * (float)gameTime.ElapsedGameTime.TotalSeconds;
     }
 
     private void ApplyInputMovement(GameTime gameTime)

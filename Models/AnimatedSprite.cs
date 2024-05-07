@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Diagnostics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -9,7 +8,6 @@ class AnimatedSprite : Sprite
     private readonly Dictionary<string, List<Rectangle>> _sourceRectangles;
     private Rectangle _sourceRectangle;
     private readonly Dictionary<string, Texture2D> _textures;
-    private readonly int _numberOfHorizontalSprites;
     private string _currentSpritesheetPath;
 
     private float _fpsCounter = 0;
@@ -19,7 +17,6 @@ class AnimatedSprite : Sprite
     public AnimatedSprite(Vector2 position, Vector2 size, int frameRefreshRate, string[] spritesheetPaths, int numberOfHorizontalSprites) : base(position, size)
     {
         _frameRefreshRate = frameRefreshRate;
-        _numberOfHorizontalSprites = numberOfHorizontalSprites;
 
         _textures = new();
         _sourceRectangles = new();
